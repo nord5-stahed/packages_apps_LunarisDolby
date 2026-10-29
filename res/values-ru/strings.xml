@@ -5,8 +5,16 @@
 -->
 <resources>
 
+    <!-- Expressive UI -->
+    <string name="dolby_credits">Авторы</string>
+    <string name="dolby_more_options">Дополнительные параметры</string>
+    <string name="dolby_save_preset">Сохранить настройку</string>
+    <string name="dolby_equalizer_summary">Формируйте свой звук, частоту за частотой</string>
+    <string name="dolby_advanced_summary">Настройте параметры прослушивания под себя</string>
+
     <!-- Dolby Atmos -->
     <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Погрузитесь в мир звука</string>
     <string name="dolby_enable">Включить Dolby Atmos</string>
     <string name="dolby_profile_title">Выберите звуковой профиль</string>
     <string name="dolby_preset">Эквалайзер</string>
@@ -51,6 +59,7 @@
 
     <!-- Dolby profiles -->
     <string name="dolby_profile_dynamic">Динамика</string>
+    <string name="dolby_profile_dynamic_summary">Автоматически подстраивается под ваш звук</string>
     <string name="dolby_profile_video">Кино</string>
     <string name="dolby_profile_music">Музыка</string>
     <string name="dolby_profile_game">Игры</string>
@@ -111,12 +120,25 @@
     <string name="dolby_geq_view_sliders">Движки</string>
     <string name="dolby_geq_b_bands">Полос</string>
     <string name="dolby_geq_l_bands">полос</string>
+    <string name="band_tuner">Настройка диапазонов</string>
+    <string name="band_tuner_desc">Пройдите по диапазонам и выполните точную настройку усиления с шагом 0,1 дБ</string>
+    <string name="band_tuner_position">Диапазон %1$d из %2$d</string>
+    <string name="band_tuner_label">Диапазон %1$d · %2$s</string>
+    <string name="band_tuner_previous">Предыдущий диапазон</string>
+    <string name="band_tuner_next">Следующий диапазон</string>
+    <string name="band_tuner_decrement">−0.1 дБ</string>
+    <string name="band_tuner_reset">0 дБ</string>
+    <string name="band_tuner_increment">+0.1 дБ</string>
 
     <!-- Dolby intelligent EQ -->
     <string name="dolby_ieq">Умный эквалайзер</string>
     <string name="dolby_balanced">Баланс</string>
     <string name="dolby_warm">Тёплый</string>
     <string name="dolby_detailed">Детали</string>
+    <string name="dolby_ieq_off_summary">Текущий профиль без интеллектуального эквалайзера.</string>
+    <string name="dolby_ieq_detailed_summary">Проявляет тонкие детали и чёткость.</string>
+    <string name="dolby_ieq_balanced_summary">Поддержка баланса низких, средних и высоких частот.</string>
+    <string name="dolby_ieq_warm_summary">Придаёт звуку более мягкий и тёплый характер.</string>
 
     <!-- Per-App Audio Profiles -->
     <string name="app_profiles_title">Профили приложений</string>
@@ -190,4 +212,15 @@
     <string name="app_profile_conflict_toast">Запоминание для каждого устройства отключено - несовместимо с профилями для каждого приложения</string>
     <string name="app_profile_conflict_summary">⚠ Отключено, пока активны профили для каждого приложения - они конфликтуют</string>
     <string name="device_state_memory_section_title">Ностройки аудиоустройств</string>
+
+    <!-- AutoEQ Profile -->
+    <string name="dolby_autoeq_title">Применить профиль AutoEQ</string>
+    <string name="dolby_autoeq_applied">Применён профиль AutoEQ для %1$s</string>
+    <string name="dolby_autoeq_preset_name">AutoEQ: %1$s</string>
+    <string name="dolby_autoeq_search_hint">Поиск среди 8000+ профилей…</string>
+    <string name="dolby_autoeq_currently_applied">Применён сейчас</string>
+    <string name="dolby_autoeq_clear">Очистить поиск</string>
+    <string name="dolby_autoeq_search">Поиск</string>
+    <string name="dolby_autoeq_active">Активный профиль</string>
+    <string name="dolby_autoeq_selected">Выбранный профиль</string>
 </resources>
